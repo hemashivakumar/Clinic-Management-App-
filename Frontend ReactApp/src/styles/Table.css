@@ -1,0 +1,66 @@
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th {
+  background-color: salmon;
+  color: papayawhip;
+}
+td {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  border: 3px solid black;
+  background-color: skyblue;
+  color: darkcyan;
+}
+button {
+  background-color: skyblue;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+}
+h2 {
+  color: peachpuff;
+  margin: 4px;
+}
+select {
+  background-color: skyblue;
+  color: black;
+  width: 171px;
+}
+
+form {
+  margin: 10px;
+  background-color: peachpuff;
+  border-radius: 5px;
+}
+
+label {
+  width: 180px;
+  display: inline-block;
+  margin: 4px;
+}
+.form {
+  border-radius: 10px;
+  background: skyblue;
+  width: 290px;
+
+  padding: 4px;
+}
+
+
+.container {
+  padding-bottom: 20px;
+}
+
+  
+  [class^="col"] {
+    background: paleturquoise;
+    outline: 1px solid palevioletred;
+  }
